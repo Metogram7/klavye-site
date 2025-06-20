@@ -1,0 +1,32 @@
+.button-container {
+  height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 2px solid black; /* isteğe bağlı, görünür olsun diye */
+  background-color: #f0f8ff; /* isteğe bağlı, arka plan rengi */
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 12px;
+}
+@media (max-width: 600px) {
+  button {
+    font-size: 20px;       /* Buton yazısını küçült */
+    padding: 10px 15px;    /* Buton iç boşluklarını ayarla */
+    width: 90%;            /* Buton genişliğini ekran genişliğine göre ayarla */
+    margin: 5px auto;      /* Butonların arasına boşluk ve ortalama */
+    display: block;        /* Her butonu alt alta yap */
+  }
+
+  h1 {
+    font-size: 40px;       /* Başlık boyutunu küçült */
+    padding-left: 10px;    /* Padding azalt */
+  }
+}
+.container {
+  max-width: 100%;
+  overflow-x: auto; /* Yatay kaydırma aç */
+  white-space: nowrap; /* Butonların satır içinde kalması için */
+  padding: 10px;
+  box-sizing: border-box;
+}
